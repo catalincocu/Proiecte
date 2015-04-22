@@ -1,0 +1,390 @@
+
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #626938;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #282b16;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body
+{
+
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background: url(images/bg.jpg) fixed;
+	background-repeat:repeat-x;
+	background-position: top;
+	background-color: #2e3c16;
+}
+
+#mainbg{
+	background: url(images/main_bg.png);
+	background-repeat:repeat-y;
+	background-position: center;
+}
+
+#main{
+	margin: 0 auto;
+	width: 1014px;
+}
+
+#header{
+	width: 1014px;
+	margin: 0 auto;
+	height: 234px;
+	background: url(images/header.jpg) no-repeat top;
+}
+
+#logo{
+	text-align: left;
+	height: 50px;
+	padding-left: 90px;
+	padding-top: 4px;
+	background: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	background-position:top left;
+}
+
+#logo a {
+	text-decoration: none;
+	font-family: 'Quintessential', cursive;
+	font-size: 26px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#logo small {
+	padding-left: 380px;
+}
+
+#logo small a{
+	font-size: 14px;
+	font-family: 'Quintessential', cursive;
+	color: #FFFFFF
+}
+
+#buttons{
+	height: 35px;
+	margin: 0 auto;
+	background: url(images/menubg.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#buttons ul {
+    padding-left: 0px;
+}
+
+#buttons li {
+	display: inline;
+}
+
+#buttons a {
+	font-family: 'Quintessential', cursive;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	float: left;
+	width: 130px;
+	height: 35px;
+	padding-top: 5px;
+}
+
+#buttons a:hover {
+	height: 30px;
+	background: url(images/menubghov.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+#content{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#content_bg{
+	background: url(images/contentbg.jpg);
+	background-position:top;
+	background-color: #f3f5e9;
+}
+
+#left{
+width: 850px;
+height: auto;
+}
+
+#left p{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: Tahoma, Geneva, Verdana;
+	font-size: 14px;
+	width: 700px;
+	height: 200px;
+}
+
+#text{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+#left H1{
+	font-family: 'Quintessential', cursive;
+	font-weight:normal;
+	color: #ffffff;
+	font-size: 14px;
+	height: 22px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	width:780px;
+	margin-bottom:20px;
+	background: url(images/title_left.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#left H5{
+	font-family: 'Quintessential', cursive;
+	font-weight:normal;
+	color: #ffffff;
+	font-size: 14px;
+	height: 22px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	width:780px;
+	margin-bottom:20px;
+	background: url(images/title_left.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#left H3{
+	font-family: 'Quintessential', cursive;
+	font-weight:normal;
+	text-align: center;
+	color: #ffffff;
+	font-size: 22px;
+	height: 30px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	width:780px;
+	margin-bottom:20px;
+	background: url(images/titleh3.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#left img{
+	padding-right: 15px; 
+	float: left; 
+	margin: 0px 5px 5px 0px;
+	padding-left: 5px; 
+	padding-bottom: 5px;
+	padding-top: 2px;
+	width: 320px;
+	height: 190px;
+}
+
+.detalii{
+	text-align: right;
+	background: url(images/read.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	height: 22px;
+	width: 705px;
+}
+
+.detalii a{
+	color: #ffffff;
+	font-weight:normal;
+	padding-right:30px;
+	font-size: 15px;
+	text-decoration:none;
+}
+
+.detalii a:hover{
+	text-decoration:underline;
+}
+
+#right{
+	width: 262px;
+	float:right;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+
+#right h2 {
+	font-family: 'Quintessential', cursive;
+	font-weight:normal;
+	color: #ffffff;
+	font-size: 14px;
+	height: 22px;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	margin-bottom:20px;
+	background: url(images/title_right.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#right ul{
+	list-style: none;
+	margin-bottom: 30px;
+	padding-left:7px;
+	padding-top: 0px;
+	padding-right:10px;
+}
+
+
+
+#right li{
+	background: url(images/ls.png) no-repeat left top;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+#right a{
+	text-decoration: none;
+	color: #335000;
+	font-weight:bold;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+
+#footer
+{
+	background: url(images/footer.jpg);
+	background-repeat:repeat-x;
+	background-position:top;
+	height: 18px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 15px;
+	text-align: center;
+	clear:both;
+	padding-bottom: 5px;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 10px;
+	text-decoration: none;
+}
+.padding{
+	padding: 10px;
+	color:#FF0000;
+	font-weight: bold;
+}
+
+.textbox { 
+    background-color: #D7EFFF; 
+    border: solid 1px #646464; 
+    outline: none; 
+} 
+.textbox:hover { 
+    background-color: #FF0; 
+} 
+.textbox:focus { 
+    background-color: #6FFF62; 
+} 
+.textbox:active { 
+    background-color: #EB8D00; 
+}
+
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+#slider-wrapper {
+    background:url(images/top.jpg) no-repeat;
+    width: 1014px;
+    height: 234px;
+    margin:0 auto;
+}
+
+#slider {
+	position:relative;
+    width: 1014px;
+    height: 234px;
+	background:url(images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	padding-left: 470px;
+	padding-top: 122px;
+
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(images/bp.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+	background:url(images/bp_hover.png) no-repeat;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}

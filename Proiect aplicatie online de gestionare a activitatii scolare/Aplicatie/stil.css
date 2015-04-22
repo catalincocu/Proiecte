@@ -1,0 +1,289 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background:#393939;
+}
+
+a {
+	color: #393939;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #393939;
+}
+
+#header {
+	padding-top:0px;
+	width: 1000px;
+	height: 100px;
+	margin-left: auto;
+	margin-right:auto;
+	background: #4D71A3;
+}
+
+#header h1 {
+	margin:0px;
+	padding-top:5px;
+	padding-left:410px;
+	font-size:140%;
+	font-family:tahoma;
+	font-weight:bold;
+	color: #FFFFFF;
+}
+#header a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#body {
+	margin-top:0px;
+    margin-left:auto;
+	margin-right:auto;
+	background:#FFFFFF;
+	width:1000px;
+	height:1100px;
+}
+
+#titlu{
+color:black;
+margin-left:10px;
+margin-top:-200px;
+padding-right:0px;
+font-family:calibri;
+font-weight:bold;
+text-align:left;
+padding-left:20px;
+padding-top:0px;
+width:400px;
+height:300px;
+font-size:150%;
+text-align:center;
+}
+
+#poza{
+margin:0px;
+padding-left:0px;
+font-size:70%;
+text-align:right;
+}
+
+#bloc_text{
+margin-left:45px;
+margin-top: -40px;
+margin-right:30px;
+color:#3A5894;
+font-family:calibri;
+font-weight:bold;
+font-size:100%;
+text-align:justify;
+width:850px;
+}
+
+#bloc_text h1{
+font-weight:bold;
+text-align:center;
+}
+#meniu {
+	float: right;
+	margin: -35px 10px auto auto;
+	font-size:80%;
+	font-family:tahoma;
+}
+
+#meniu ul {
+	margin: auto;
+	list-style: none;
+	line-height: normal;
+}
+
+#meniu li {
+	float: left;
+	margin: auto;
+}
+
+#meniu a {
+	border: 1px solid #006;
+	display: block;
+	width: auto;
+	height: 20px;
+	padding: 5px 10px 3px 10px;
+	background: #3A5894;
+	color:#FFFFFF;
+	text-decoration:none
+}
+
+#meniu a:hover {
+	text-decoration: none;
+	background:#3399FF;
+}
+
+#menu .first {
+	background: none;
+}
+
+#menu .active a {
+}
+
+.tabeluser{
+margin-top:35px;
+}
+
+.text {
+    border: 1px solid #006;
+    background: #ffc;
+	font-size:120%;
+	font-family:tahoma;
+	font-weight:bold;
+}
+
+.buton_1 {
+    border: 1px solid #006;
+    background: #3A5894;
+	font-size:120%;
+	font-family:tahoma;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.textmare {
+    border: 1px solid #006;
+    background: #ffc;
+	font-size:120%;
+	font-family:tahoma;
+	font-weight:bold;
+	width:200px;
+}
+
+#formularinregistrare{
+	font-family:tahoma;
+	font-weight:bold;
+	border: 0px solid #006;
+	margin: auto;
+	color:black;
+	width:500px;
+}
+
+#formularinregistrare h1{
+margin:0px;
+text-align:center;
+font-size:140%;
+font-weight:bold;
+}
+
+#formularinregistrare h2{
+border: 1px solid #006;
+margin:40px auto;
+padding-left:0px;
+padding-top:30px;
+text-align:center;
+font-size:80%;
+font-weight:bold;
+}
+
+#formularinregistrare h3{
+font-size:70%;
+color:red;
+padding-top:0px;
+padding-right:0px;
+text-align:left;
+}
+
+#notesiabs{
+font-family:tahoma;
+font-weight:bold;
+margin: auto;
+color:black;
+width:auto;
+font-size:60%;
+}
+
+#notesiabs h1{
+font-family:tahoma;
+font-weight:bold;
+margin: auto;
+color:red;
+width:auto;
+font-size:100%;
+}
+
+#noteabsprof{
+padding-top:20px;
+font-family:tahoma;
+font-weight:bold;
+margin: auto;
+color:black;
+width:900px;
+font-size:75%;
+}
+
+#noteabsprof h1{
+margin:0px;
+color:red;
+font-weight:bold;
+font-size:100%;
+}
+
+#vizualizare{
+font-family:tahoma;
+font-weight:bold;
+margin: auto;
+color:black;
+width:850;
+font-size:75%;
+}
+
+#vizualizare h1{
+font-family:tahoma;
+font-weight:bold;
+margin: auto;
+color:red;
+font-size:100%;
+}
+
+#memberlogin{
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:70%;
+	border: 0px solid #006;
+	padding-top:0px;
+	padding-left:10px;
+	margin: 5px 0px;
+	color:white;
+}
+
+#memberlogin p{
+margin:0px;
+text-align:right;
+}
+
+#date h1{
+color:red;
+padding-top:0px;
+padding-right:0px;
+text-align:center;
+font-size=120%;
+}
+
+#footer {
+	width: 1000px;
+	height: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #FFFFFF;
+	background: #4D71A3;
+}
+
+#footer p {
+	margin-top:0px;
+	font-size:120%;
+	font-family:tahoma;
+	font-weight:bold;
+	text-align: center;
+	line-height: normal;
+	font-size: smaller;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
